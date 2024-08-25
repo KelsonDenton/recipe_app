@@ -39,6 +39,6 @@ Next, navigate to the /frontend directory and run the command
 The app will now be running at http://localhost:3000/.
 To verify the backend is working as expected, feel free to try out some of the API endpoints:
 - http://127.0.0.1:8000/api/recipes/ will show all recipes currently saved
-- http://127.0.0.1:8000/api/recipes/<id> where the id is the ID of the recipe you would like to view will display a single recipe
+- http://127.0.0.1:8000/api/recipes/{id} where the id is the ID of the recipe you would like to view will display a single recipe
 
 The frontend uses these APIs to perform CRUD operations.
